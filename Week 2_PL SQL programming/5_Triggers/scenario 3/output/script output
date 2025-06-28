@@ -1,0 +1,24 @@
+
+Table ACCOUNTS created.
+
+
+Table TRANSACTIONS created.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Trigger CHECKTRANSACTIONRULES compiled
+
+
+1 row inserted.
+
+
+   LOAN_ID CUSTOMER_ID INTEREST_RATE DUE_DATE
+---------- ----------- ------------- --------
+       301           1            10 23-12-25
+       302           2           8.5 24-09-25
+

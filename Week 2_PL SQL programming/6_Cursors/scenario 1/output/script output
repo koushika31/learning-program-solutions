@@ -1,0 +1,27 @@
+
+Table TRANSACTIONS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Account: 401 | Type: deposit | Amount: 1000 | Date: 26-Jun-2025
+Account: 401 | Type: withdraw | Amount: 500 | Date: 24-Jun-2025
+
+
+PL/SQL procedure successfully completed.
+
+
+    TXN_ID     ACC_NO TXN_TYPE                 AMOUNT TXN_DATE
+---------- ---------- -------------------- ---------- --------
+      2001        401 deposit                    1000 26-06-25
+      2002        401 withdraw                    500 24-06-25
+

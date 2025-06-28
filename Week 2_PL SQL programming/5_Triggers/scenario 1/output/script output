@@ -1,0 +1,20 @@
+
+Table CUSTOMERS created.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Trigger UPDATECUSTOMERLASTMODIFIED compiled
+
+
+1 row updated.
+
+
+CUSTOMER_ID NAME                                                                                                        AGE    BALANCE ISVIP LASTMODI
+----------- ---------------------------------------------------------------------------------------------------- ---------- ---------- ----- --------
+          1 Koushika                                                                                                     25      13000 FALSE 26-06-25
+

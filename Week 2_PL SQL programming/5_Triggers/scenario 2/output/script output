@@ -1,0 +1,17 @@
+
+Table TRANSACTIONS created.
+
+
+Table AUDIT_LOG created.
+
+
+Trigger LOGTRANSACTION compiled
+
+
+1 row inserted.
+
+
+    LOG_ID     TXN_ID LOG_TIME ACTION                                            
+---------- ---------- -------- --------------------------------------------------
+         1       1001 26-06-25 Transaction Inserted                              
+

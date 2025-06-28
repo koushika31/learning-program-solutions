@@ -1,0 +1,24 @@
+
+Table LOANS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Updated interest for Loan ID: 301
+Updated interest for Loan ID: 302
+
+
+PL/SQL procedure successfully completed.
+
+
+   LOAN_ID CUSTOMER_ID INTEREST_RATE DUE_DATE
+---------- ----------- ------------- --------
+       301           1            10 23-12-25
+       302           2           8.5 24-09-25
+
