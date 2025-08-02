@@ -1,0 +1,46 @@
+.container {
+  margin: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  color: green;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group label {
+  width: 100px;
+}
+
+.input-group input,
+.input-group textarea {
+  flex: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
