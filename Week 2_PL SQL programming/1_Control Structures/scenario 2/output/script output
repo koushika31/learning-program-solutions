@@ -1,0 +1,30 @@
+
+PL/SQL procedure successfully completed.
+
+
+Table CUSTOMERS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+VIP status updated for eligible customers.
+
+
+PL/SQL procedure successfully completed.
+
+
+CUSTOMER_ID NAME                                                                                                        AGE    BALANCE ISVIP
+----------- ---------------------------------------------------------------------------------------------------- ---------- ---------- -----
+          1 Koushika                                                                                                     65      12000 TRUE 
+          2 Madhu                                                                                                        45       8000 FALSE
+          3 Siva                                                                                                         70      15000 TRUE 
+

@@ -1,0 +1,33 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: oauth2jwtsecure
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 486986921686-69idvd9gkcmh983oj0ij7mg2j63sn4hc.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+              - openid
+              - profile
+              - email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            authorization-grant-type: authorization_code
+        provider:
+          google:
+            authorization-uri: https://accounts.google.com/o/oauth2/v2/auth
+            token-uri: https://oauth2.googleapis.com/token
+            user-info-uri: https://openidconnect.googleapis.com/v1/userinfo
+            user-name-attribute: sub
+
+  jwt:
+    secret: my-secret-key
+
+logging:
+  level:
+    org.springframework.security: DEBUG

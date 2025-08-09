@@ -1,0 +1,28 @@
+
+PL/SQL procedure successfully completed.
+
+
+Table ACCOUNTS created.
+
+
+Package ACCOUNTOPERATIONS compiled
+
+
+Package Body ACCOUNTOPERATIONS compiled
+
+
+PL/SQL procedure successfully completed.
+
+Total Balance for Customer 1: 4000
+
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+Balance after closing one account: 2500
+
+
+PL/SQL procedure successfully completed.
+

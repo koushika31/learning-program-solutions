@@ -1,0 +1,3 @@
+2025-06-27 00:22:29.371 [main] INFO  org.koushika.AppenderExample - Logging to both console and file.
+2025-06-27 00:22:29.375 [main] WARN  org.koushika.AppenderExample - This is a warning that should appear in both.
+2025-06-27 00:22:29.375 [main] ERROR org.koushika.AppenderExample - This is an error message with dual appenders.

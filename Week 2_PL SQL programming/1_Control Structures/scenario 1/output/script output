@@ -1,0 +1,45 @@
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+
+Table CUSTOMERS created.
+
+
+Table LOANS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Interest rates updated for customers above 60.
+
+
+PL/SQL procedure successfully completed.
+
+
+   LOAN_ID CUSTOMER_ID INTEREST_RATE
+---------- ----------- -------------
+       101           1           8.5
+       102           2           8.5
+       103           3             9
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Departments -->
+    <bean id="dept1" class="com.example.employeeapp.model.Department">
+        <property name="id"   value="101"/>
+        <property name="name" value="Development"/>
+    </bean>
+
+    <bean id="dept2" class="com.example.employeeapp.model.Department">
+        <property name="id"   value="102"/>
+        <property name="name" value="Testing"/>
+    </bean>
+
+    <!-- Employee List -->
+    <bean id="employeeList" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <bean class="com.example.employeeapp.model.Employee">
+                    <property name="id"         value="1"/>
+                    <property name="name"       value="Alice"/>
+                    <property name="department" ref="dept1"/>
+                </bean>
+                <bean class="com.example.employeeapp.model.Employee">
+                    <property name="id"         value="2"/>
+                    <property name="name"       value="Bob"/>
+                    <property name="department" ref="dept1"/>
+                </bean>
+                <bean class="com.example.employeeapp.model.Employee">
+                    <property name="id"         value="3"/>
+                    <property name="name"       value="Charlie"/>
+                    <property name="department" ref="dept2"/>
+                </bean>
+                <bean class="com.example.employeeapp.model.Employee">
+                    <property name="id"         value="4"/>
+                    <property name="name"       value="Diana"/>
+                    <property name="department" ref="dept2"/>
+                </bean>
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>
